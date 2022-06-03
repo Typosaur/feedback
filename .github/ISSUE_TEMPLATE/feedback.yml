@@ -13,7 +13,7 @@ body:
       placeholder: https://example.com
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
