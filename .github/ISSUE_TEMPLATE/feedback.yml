@@ -1,0 +1,58 @@
+name: Feedback
+description: Leave your feedback
+title: "[Feedback]: "
+labels: ["feedback"]
+assignees:
+  - mishushakov
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: What URL did you check with Typosaur?
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: markdown
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen? You can attach screenshots or a video
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Could you locate in which part of the Proofreading experience the issue ocurred?
+      options:
+        - Highlighting
+        - Popup
+        - Overview (sidebar)
+        - Summary
+  - type: dropdown
+    id: experience
+    attributes:
+      label: Experience
+      description: How much has the issue impacted your experience?
+      options:
+        - Insignificantly
+        - Slightly
+        - Major
+  - type: textarea
+    id: ideas
+    attributes:
+      label: Do you have any ideas that could improve Typosaur? 
+      description: If so, please leave your feedback here
