@@ -1,9 +1,6 @@
 name: Feedback
 description: Leave your feedback
-title: "[Feedback]: "
 labels: ["feedback"]
-assignees:
-  - mishushakov
 body:
   - type: input
     id: url
@@ -19,7 +16,6 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen? You can attach screenshots or a video
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
