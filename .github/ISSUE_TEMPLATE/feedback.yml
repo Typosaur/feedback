@@ -1,5 +1,6 @@
 name: Feedback
 description: Leave your feedback
+title: "Feedback"
 labels: ["feedback"]
 body:
   - type: input
