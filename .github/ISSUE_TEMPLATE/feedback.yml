@@ -7,7 +7,7 @@ body:
     id: url
     attributes:
       label: URL
-      description: What URL did you check with Typosaur?
+      description: What URL were you checking?
       placeholder: https://example.com
     validations:
       required: true
