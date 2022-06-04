@@ -1,0 +1,19 @@
+name: Incorrect suggestion
+description: Report incorrect suggestions
+labels: ["suggestions"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: What URL were you checking?
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Word(s)
+      description: Which words were mistakenly highlighted?
+    validations:
+      required: true
