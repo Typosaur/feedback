@@ -8,8 +8,6 @@ body:
       label: URL
       description: What URL were you checking?
       placeholder: https://example.com
-    validations:
-      required: true
   - type: textarea
     id: text
     attributes:
