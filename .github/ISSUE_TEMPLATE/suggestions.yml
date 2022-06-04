@@ -9,7 +9,7 @@ body:
       description: What URL were you checking?
       placeholder: https://example.com
   - type: textarea
-    id: text
+    id: word
     attributes:
       label: Word(s)
       description: Which words were mistakenly highlighted?
