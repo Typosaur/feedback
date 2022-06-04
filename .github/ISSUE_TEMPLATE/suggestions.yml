@@ -1,5 +1,6 @@
 name: Incorrect suggestion
 description: Report incorrect suggestions
+title: Incorrect suggestion
 labels: ["suggestions"]
 body:
   - type: input
