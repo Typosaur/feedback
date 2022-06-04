@@ -3,12 +3,6 @@ description: Report incorrect suggestions
 title: Incorrect suggestion
 labels: ["suggestions"]
 body:
-  - type: input
-    id: url
-    attributes:
-      label: URL
-      description: What URL were you checking?
-      placeholder: https://example.com
   - type: textarea
     id: word
     attributes:
@@ -16,3 +10,9 @@ body:
       description: Which words were mistakenly highlighted?
     validations:
       required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: What URL were you checking?
+      placeholder: https://example.com
